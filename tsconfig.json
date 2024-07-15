@@ -18,6 +18,7 @@
 		"sourceMap": true,
 		"allowJs": true /* Allow javascript files to be compiled. Useful when migrating JS to TS */,
 		// "checkJs": true /* Report errors in .js files. Works in tandem with allowJs. */,
+		"allowSyntheticDefaultImports": true,
 		"plugins": [{ "name": "typescript-plugin-css-modules" }],
 		"baseUrl": "./",
 		// Важно держать конфиг элиасов тут в соответствии с конфигом элиасов в вебпаке (webpack.common.js - resolve.alias) и с конфигом сторибука (.storybook/main.ts - webpackFinal)
